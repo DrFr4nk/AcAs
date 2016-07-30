@@ -1,0 +1,3 @@
+probabilistic 1
+S={D=1 PROB=0.7 RANDOM(0,1) SIZE(100000) ITERATION(10000) WALKPATH(pathD1.txt) BCONDITION(0,3)}
+R={"if(((a[x-1]==0)&&(a[x]==0)&&(a[x+1]==1))||((a[x-1]==0)&&(a[x]==1)&&(a[x+1]==1))||((a[x-1]==1)&&(a[x]==0)&&(a[x+1]==0))||((a[x-1]==1)&&(a[x]==1)&&(a[x+1]==0))) answer[x]=1; else answer[x]=0;"}
